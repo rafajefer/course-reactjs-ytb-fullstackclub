@@ -16,7 +16,7 @@ Este projeto foi desenvolvido como parte do estudo sobre **React**, através do 
 
 Antes de começar, certifique-se de ter os seguintes requisitos:  
 
-- **Node.js** 16
+- **Node.js** 22
 
 Ou, alternativamente, utilize **Docker** (recomendado):  
 
