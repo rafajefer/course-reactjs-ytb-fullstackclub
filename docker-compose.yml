@@ -1,0 +1,16 @@
+services:
+  app:
+    container_name: reactjs-container
+    image: node:22
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    working_dir: /app
+    volumes:
+      - .:/app
+    tty: true
+    networks:
+      - course_react_network
+networks:
+  course_react_network:
+    driver: bridge
